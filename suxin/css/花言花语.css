@@ -1,0 +1,350 @@
+/*去掉标签的默认样式*/
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    font: 16px/1.5 "Microsoft YaHei UI", "sans-serif";
+    color: #333333;
+}
+a {
+    text-decoration: none;
+    color: #333333;
+}
+/*以上为默认样式*/
+
+/*nav*/
+.nav {
+    width: 100%;
+    height: 79px;
+    background: #fff;
+    position: fixed;
+    border-bottom: 1px solid #ffffff;
+}
+.navContent {
+    width: 1170px; /*内宽*/
+    height: 100%; /*父元素高*/
+    margin: 0 auto; /*一个元素在另一个元素中水平居中 保证在每个浏览器都能运行*/
+}
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right; /*往右边浮动*/
+}
+/*行内元素（无宽高属性）*/
+.logo a {
+    display: block; /*行内元素变成块元素*/
+    width: 100%;
+    height: 100%;
+}
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+.navList li {
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+.navList li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center; /*水平*/
+    line-height: 79px; /*垂直*/
+    font-size: 14px;
+    transition: .5s /*过渡属性：颜色 时间 方式 延迟*/
+}
+/*当鼠标移上时,变颜色*/
+.navList li a:hover {
+    color: #16b0bc;
+}
+/*nav*/
+
+/*banner*/
+.banner{
+    width: 100%;
+    height: 120px;
+    background: #F1F1F0;
+    display: block;
+    text-align: center;
+    padding-top: 80px;
+}
+.banner h1{
+    font-size: 40px;
+    color:rgb(246, 122, 130);
+    line-height: 120px;
+    font-weight: 500;
+}
+/*banner*/
+
+/*section*/
+.section{
+    width: 100%;
+    height: 1900px;
+    background: #F1F1F0;
+}
+.row{
+    width: 1170px;
+    height: 1880px;
+    /*background: #0dff00;*/
+    margin: 0 auto;
+}
+.news-list{
+    width: 877.5px;
+    height: 1880px;
+    background: #fff;
+    float: left;
+}
+.news-bar{
+    width: 262.5px;
+    height: 354px;
+    background: #fff;
+    float: right;
+}
+.met-page{
+    width: 817.5px;
+    height: 1756px;
+    background: #fff;
+    margin: 0 auto 30px;
+}
+.met-page-1{
+    width: 100%;
+    height: 160px;
+    border-bottom: 1px solid #f0f2f5;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+.media-left{
+    width: 180px;
+    height: 160px;
+    float: left;
+}
+.media-left img{
+    width: 160px;
+    height: 160px;
+}
+.media-body{
+    width: 637px;
+    height: 160px;
+    float: left;
+}
+.media-heading{
+    width: 637px;
+    /*background: #b0b0b0;*/
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.media-heading a {
+    font-size: 22px;
+    font-weight: 400;
+}
+.media-heading a:hover{
+    color: skyblue;
+    text-decoration:underline;
+}
+.des{
+    width: 637px;
+    /*height: 96px;*/
+    overflow: hidden;
+    /*background: #e5231e;*/
+    font-size: 16px;
+    margin-bottom: 10px;
+
+
+}
+.info{
+    width: 637px;
+    height: 24px;
+}
+/*跳转*/
+.jump{
+    width: 817.5px;
+    height: 39px;
+    /*background: #0dff00;*/
+    margin: 0 auto;
+}
+.jump-1{
+    width: 195px;
+    height: 39px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.jump-1 span{
+    width: 74px;
+    height: 100%;
+    text-align: center;
+    line-height: 39px;
+    border: 1px solid #b0b0b0;
+    box-sizing: border-box;
+}
+.jump-1 a{
+    width: 38px;
+    height: 100%;
+    text-align: center;
+    line-height: 39px;
+    border-top: 1px solid #b0b0b0;
+    border-bottom: 1px solid #b0b0b0;
+    border-right:1px solid #b0b0b0;
+    box-sizing: border-box;
+}
+.jump-1 p{
+    display: block;
+    width: 74px;
+    height: 100%;
+    text-align: center;
+    line-height: 39px;
+    border-right: 1px solid #b0b0b0;
+    border-top: 1px solid #b0b0b0;
+    border-bottom: 1px solid #b0b0b0;
+    box-sizing: border-box;
+}
+/*右边*/
+.form-group{
+    width: 222.5px;
+    height: 36px;
+    /*background: #ff6700;*/
+    margin: 30px auto 30px;
+}
+.input{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    background: #ffffff;
+    font-size: 18px;
+}
+.input:hover{
+    border: 1px solid blue;
+}
+.input-search{
+    width: 170px;
+    height: 32px;
+    margin-left: 15px;
+    border: 0px;outline:none;
+
+    /*border: none;*/
+}
+.input i{
+    position: absolute;
+    line-height: 32px;
+}
+.news-list1{
+    width: 222.5px;
+    height: 203px;
+    /*background: #e300c1;*/
+    margin-top: 5px;
+    border-bottom: 1px solid #b0b0b0;
+}
+.news-list1 h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+.news-list-md{
+    width: 222.5px;
+    height: 130px;
+   /* background: #e5231e;*/
+    margin-top: 10px;
+}
+.news-list-md li{
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    box-sizing: border-box;
+}
+.news-list-md li:hover{
+    color: skyblue;
+    text-decoration: underline;
+}
+.news-list-md1{
+    border: 1px solid #b0b0b0;
+    text-indent:15px;
+}
+.news-list-md2{
+    border-left: 1px solid #b0b0b0;
+    border-right: 1px solid #b0b0b0;
+    text-indent:15px;
+}
+.news-list-md3{
+    border: 1px solid #b0b0b0;
+    text-indent:15px;
+
+}
+.news-list2{
+    width: 222.5px;
+    height: 24px;
+    /*background: #000;*/
+    line-height: 24px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.news-list2:hover{
+    color: skyblue;
+    text-decoration: underline;
+}
+
+/*section*/
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: 160px;
+    border-top: 1px solid #f0f2f5;
+    padding-top: 20px;
+}
+.footerContent {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #f5f5f5;
+}
+.icon{
+    width: 100%;
+    height: 56px;
+    margin: 0 auto;
+
+}
+.icon .iconContent{
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.icon .iconContent img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    float: left;
+}
+.phone {
+    width: 100%;
+    height: 75px;
+    margin: 0 auto;
+
+}
+.phone .choose{
+    height: 20px;
+    padding: 5px 0;
+}
+.phone .choose a{
+    color: #42a6fa;
+}
+.phone .choose a:hover{
+    text-decoration: underline;
+}
+.phone p {
+    text-align: center;
+    font: 14px "Microsoft YaHei UI";
+    line-height: 25px;
+    color: #aaaaaa;
+}
+

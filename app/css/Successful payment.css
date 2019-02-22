@@ -1,0 +1,267 @@
+body{
+    position: fixed;
+}
+/*first*/
+.first-box{
+    width: 7.5rem;
+    height: 1rem;
+    background: #ffb20c;
+    margin: 0 auto;
+}
+.first-1{
+    width: 7rem;
+    height: 0.5rem;
+    /*background: #e5231e;*/
+    position: absolute;
+    margin-top:0.25rem;
+    margin-left: 0.25rem;
+}
+.first-1 p{
+    position: absolute;
+    font-size: 0.4rem;
+    color: #fff;
+    font-family: PingFang-SC-Regular;
+    letter-spacing: 4px;
+    margin-left: 2.65rem;
+}
+.first-left{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #ffffff;
+    border-radius: 18px;
+    float: left;
+}
+.first-left i{
+    font-size: 0.3rem;
+    color: #ffb20c;
+    line-height: 0.5rem;
+    text-align: center;
+    margin-left: 0.07rem;
+}
+.first-right{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: right;
+    /*background: #f0f0f0;*/
+}
+.first-right-1{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #ffffff;
+    border-radius: 18px;
+    float: left;
+}
+.first-right-1 i{
+    font-size: 0.5rem;
+    color: #ffb20c;
+    line-height: 0.5rem;
+    text-align: center;
+
+}
+/*second*/
+.second-box{
+    width: 7.5rem;
+    height: 3.31rem;
+    background: #ffffff;
+    margin: 0 auto;
+}
+.second{
+    width: 5rem;
+    height: 0.5rem;
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+.second img{
+    width: 2.13rem;
+    height: 0.5rem;
+}
+/*third*/
+.third-box{
+    width: 7rem;
+    margin: 0 auto;
+
+}
+.third{
+    width: 7rem;
+    height: 1.71rem;
+    background-color: #ffffff;
+    box-shadow: 0px 9px 21px 0px
+    #fdd6d6;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -3.3rem;
+}
+.third-left{
+     width: 2.12rem;
+     height: 1.11rem;
+     float: left;
+    /*background: #b0b0b0;*/
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+ }
+.third-left-1{
+    width: 1.11rem;
+    height: 1.11rem;
+    float: left;
+}
+.third-left-2{
+    width: 1rem;
+    height: 1.11rem;
+    background: #fff;
+    float: right;
+}
+.third-left-2 p{
+    line-height: 0.55rem;
+}
+.third-right{
+    width: 3.2rem;
+    height: 0.8rem;
+    float: right;
+    margin-top: 0.4rem;
+    margin-right: 0.5rem;
+}
+.third-right p{
+    line-height: 0.45rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    color: #050505;
+    opacity: 0.8;
+}
+/*four*/
+.four-box{
+    width: 7.5rem;
+    height: 1.28rem;
+    background: #eeeeee;
+    margin: 0 auto;
+}
+.four{
+    width: 4rem;
+    height: 0.5rem;
+    position: absolute;
+    margin-top: 0.38rem;
+    margin-left: 1.75rem;
+}
+/*列表*/
+.list-box1{
+    width: 100%;
+    height: 7.8rem;
+    /*background: #e300c1;*/
+}
+.list-box{
+    width: 7.5rem;
+    height: 100%;
+    background: #efeded;
+    margin: 0 auto;
+}
+.list-box-1{
+    width: 7.3rem;
+    height: 1.9rem;
+    /*background: #e5231e;*/
+    float: right;
+}
+.list-box-2{
+    width: 100%;
+    height: 1.65rem;
+    background: #ffffff;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.list-box-3{
+    width: 3.49rem;
+    height: 1.65rem;
+    /*float: right;*/
+    /*background: #f0f0f0;*/
+}
+.dianming{
+    width: 2.25rem;
+    height: 0.35rem;
+    /*background: #e300c1;*/
+    position: relative;
+    margin-top:0.1rem;
+    border-bottom: 0.01rem dashed #b0b0b0;
+}
+.dianming p{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #080808;
+    line-height: 0.3rem;
+}
+.tedian{
+    width: 2.72rem;
+    height: 0.25rem;
+    /*background: #ff6700;*/
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.tedian p{
+    font-size: 0.12rem;
+    letter-spacing: 0.02px;
+    color: #080808;
+    line-height: 0.25rem;
+}
+.price{
+    width: 3rem;
+    height: 0.25rem;
+    /*background: #e5231e;*/
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.12rem;
+}
+.price p{
+    font-size: 0.05rem;
+    letter-spacing: 0.02rem;
+    line-height: 0.25rem;
+}
+.dingwei{
+    width: 3.2rem;
+    height: 0.35rem;
+    /*background: #616161;*/
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.dingwei-box{
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.1rem;
+
+}
+.dingwei-box i{
+    font-family: "iconfont";
+    line-height: 0.35rem;
+}
+.dingwei-box p{
+    line-height: 0.35rem;
+    font-size: 0.12rem;
+}
+.list-box-4{
+    width: 2.16rem;
+    height: 1.36rem;
+    /* background: #0dff00;*/
+    /*float: right;*/
+    margin-top: 0.18rem;
+}
+.star-box{
+    width: 1.5rem ;
+    height: 0.3rem;
+    /* background: #e5231e;*/
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.1rem;
+}
+.star-box img{
+    display: block;
+    width: 0.24rem;
+    height: 0.24rem;
+}

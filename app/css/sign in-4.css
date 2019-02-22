@@ -1,0 +1,233 @@
+/*背景图片*/
+.bg-box{
+    width: 7.5rem;
+    height: 13.34rem;
+    background: #e5231e;
+    margin: 0 auto;
+    position: fixed;
+}
+.bg-box img{
+    width: 100%;
+    height: 100%;
+}
+/*注册*/
+.sign-in{
+    width: 1.53rem;
+    height: 0.54rem;
+    /*background: #0dff00;*/
+    margin: 0 auto;
+    position: relative;
+    top: -13rem;
+    left: 2.6rem;
+}
+/*first*/
+.first-box{
+    width: 5.61rem;
+    height: 4rem;
+    /*background: #e300c1;*/
+    margin: 0 auto;
+    position: relative;
+    top:-10rem;
+}
+#queren{
+    width: 0.22rem;
+    height: 0.22rem;
+    position: absolute;
+    margin-top: 0.14rem;
+    margin-left: 3.6rem;
+}
+#queren-1{
+    width: 0.22rem;
+    height: 0.22rem;
+    position: absolute;
+    margin-top: 0.85rem;
+    margin-left: 3.6rem;
+}
+.first-1{
+    width: 5.61rem;
+    height: 3.62rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+}
+.first-1-box{
+    width: 4rem;
+    height: 2.85rem;
+   /* background: red;*/
+    margin: 0.35rem auto;
+
+}
+.first-1-1{
+    width:4rem;
+    height: 0.5rem;
+   /* background: #0dff00;*/
+}
+.first-1-1 img{
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    float: left;
+    margin-top:-0.15rem;
+}
+.point{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #ffb20c;
+    position: absolute;
+    margin-left: 1.1rem;
+    margin-top: 0.2rem;
+}
+.first-inout{
+    width: 3.2rem;
+    height: 0.5rem;
+    float: right;
+    border: solid 2px #ffb20c;
+    border-radius: 15px;
+    background: #fff;
+}
+.first-1-1 input{
+    width: 2.6rem;
+    height: 0.35rem;
+    margin-top: 0.05rem;
+    margin-right: 0.1rem;
+    float: right;
+    text-align: left;
+    border-radius: 15px;
+    border: none;
+    font-size: 0.14rem;
+    color: #b0b0b0;
+}
+.first-1-2{
+    width:4rem;
+    height: 0.5rem;
+   /* background: #0dff00;*/
+    margin-top:0.2rem ;
+}
+.first-inout-2{
+    width: 3.2rem;
+    height: 0.5rem;
+    float: right;
+    border: solid 2px #ffb20c;
+    border-radius: 15px;
+    background: #fff;
+}
+.first-1-2 img{
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    float: left;
+    margin-top:-0.15rem;
+}
+.point-1{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #ffb20c;
+    position: absolute;
+    margin-left: 1.1rem;
+    margin-top: 0.2rem;
+}
+.first-1-2 input{
+    width: 2.6rem;
+    height: 0.35rem;
+    margin-top: 0.05rem;
+    margin-right: 0.1rem;
+    float: right;
+    text-align: left;
+    border-radius: 15px;
+    border: none;
+    font-size: 0.14rem;
+    color: #b0b0b0;
+}
+.first-1-3{
+    width:3.12rem;
+    height: 0.35rem;
+    /*background: #0dff00;*/
+    margin-top:0.3rem ;
+    margin-left: 0.88rem;
+    display: flex;
+    justify-content: space-around;
+}
+.first-1-3-left{
+    width: 1.5rem;
+    height: 0.35rem;
+    float: left;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 0.1rem;
+}
+.first-1-3-left img{
+    width: 0.18rem;
+    height: 0.18rem;
+}
+.first-1-3-left p{
+    line-height: 0.18rem;
+}
+.first-1-3-right{
+    width: 1.5rem;
+    height: 0.35rem;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.1rem;
+}
+.first-1-3-right img{
+    width: 0.18rem;
+    height: 0.18rem;
+}
+.first-1-3-right p{
+    line-height: 0.18rem;
+}
+.first-1-4{
+    width:2.57rem;
+    height: 0.54rem;
+    /*background: #0dff00;*/
+    margin-top:0.46rem;
+    margin-left: 0.735rem;
+}
+.first-2{
+    width: 5.07rem;
+    height: 3.49rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    opacity: 0.41;
+    position: absolute;
+    top:0.3rem;
+    left: 0.27rem;
+}
+.first-3{
+    width: 4.38rem;
+    height: 3.62rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    opacity: 0.42;
+    position: absolute;
+    top: 0.35rem;
+    left: 0.615rem;
+}
+/*second*/
+.second-box{
+    width: 2.4rem;
+    height: 0.38rem;
+    /*background: #0dff00;*/
+    margin: 0 auto ;
+    position: relative;
+    top: -8.5rem;
+}
+/*third*/
+.third-box{
+    width: 4rem;
+    height: 0.9rem;
+    /*background: #e300c1;*/
+    position:relative;
+    margin: 0 auto;
+    top: -8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.third-box img{
+    display: block;
+    width: 0.9rem;
+    height: 0.9rem;
+}
